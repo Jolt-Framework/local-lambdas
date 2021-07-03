@@ -1,0 +1,22 @@
+{
+  "name": "local-lambdas",
+  "version": "1.0.0",
+  "description": "A tool for running Lambdas locally",
+  "main": "bin/index.js",
+  "bin": {
+    "runlambdas": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Owen Lenz <owen.lenz@gmail.com> (http://oklenz.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jolt-Framework/local-lambdas"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
